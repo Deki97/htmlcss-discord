@@ -28,6 +28,41 @@ img {
     width: 100%;
 }
 
+/* BUTTON COMMON */
+.btn-large {
+    line-height: normal;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 16px 32px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.btn-small {
+    line-height: normal;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-white {
+    line-height: normal;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-black {
+    line-height: normal;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+/* END BUTTON COMMON */
+
+
 /* HEADER */
 header {
     height: 80px;
@@ -74,27 +109,38 @@ nav {
     color: white;
     margin: 0 20px;
 }
+/* END HEADER */
 
-.btn-small {
-    line-height: normal;
-    font-size: 14px;
-    padding: 10px 16px;
-    border-radius: 18px;
-    text-decoration: none;
-    color: black;
+
+/* MAIN */
+.banner-container {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;  
 }
 
-.btn-large {
-    line-height: normal;
+.banner-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
-.btn-white {
-    line-height: normal;
-    background-color: white;
+.banner-title h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
 }
 
-.btn-black {
-    line-height: normal;
-    background-color: black;
+.banner-paragraph p {
+    font-size: 20px;
+    color: white;
+    line-height: 32px;
 }
+
+.banner-buttons {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
 
