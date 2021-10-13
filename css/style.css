@@ -4,6 +4,97 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+.col {
+    float: left;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: Whitney, sans-serif;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    background-color: #3161e0;
+}
+
+nav {
+    line-height: 80px;
+    width: 100%;
+}
+
+.logo-container {
+    width: 20%;
+    text-align: left;
+}
+
+.menu-container {
+    width: 60%;
+    text-align: center;
+}
+
+.login-container {
+    width: 20%;
+    text-align: right;
+}
+
+.logo-container img {
+    vertical-align: middle;
+    width: 120px;
+}
+
+.menu-container ul {
+    list-style-type: none;
+}
+
+.menu-container ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+.menu-container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.btn-small {
+    line-height: normal;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-large {
+    line-height: normal;
+}
+
+.btn-white {
+    line-height: normal;
+    background-color: white;
+}
+
+.btn-black {
+    line-height: normal;
+    background-color: black;
+}
+
