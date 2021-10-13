@@ -30,6 +30,7 @@ img {
 
 /* BUTTON COMMON */
 .btn-large {
+    display: inline-block;
     line-height: normal;
     text-decoration: none;
     font-size: 18px;
@@ -39,6 +40,7 @@ img {
 }
 
 .btn-small {
+    display: inline-block;
     line-height: normal;
     font-size: 14px;
     padding: 10px 16px;
@@ -48,6 +50,7 @@ img {
 }
 
 .btn-white {
+    display: inline-block;
     line-height: normal;
     background-color: white;
     text-decoration: none;
@@ -55,6 +58,7 @@ img {
 }
 
 .btn-black {
+    display: inline-block;
     line-height: normal;
     background-color: black;
     color: white;
@@ -141,6 +145,51 @@ nav {
 .banner-buttons {
     margin-top: 40px;
     margin-bottom: 60px;
+}
+
+
+/* SECTION */
+section {
+    padding: 80px 0;
+}
+
+.section-image-left, .section-image-right {
+    width: 65%;
+}
+
+/* .section-image-left img, .section-image-right img {
+    width: 700px;
+    height: auto;
+} */
+
+.section-text-right, .section-text-left {
+    width: 35%;
+}
+
+.section-text-left h2 {
+    font-size: 45px;
+    padding-top: 40px;
+}
+
+.section-text-right h2 {
+    font-size: 45px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.section-text-left p {
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.section-text-right p {
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.second {
+    background-color: #f6f6f6;
 }
 
 
