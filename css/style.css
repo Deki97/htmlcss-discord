@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +29,7 @@ img {
     width: 100%;
 }
 
-/* BUTTON COMMON */
+/* COMMON BUTTONS */
 .btn-large {
     display: inline-block;
     line-height: normal;
@@ -64,7 +65,7 @@ img {
     color: white;
     text-decoration: none;
 }
-/* END BUTTON COMMON */
+/* END COMMON BUTTONS */
 
 
 /* HEADER */
@@ -73,21 +74,25 @@ header {
     background-color: #3161e0;
 }
 
+/* NAV BAR */
 nav {
     line-height: 80px;
     width: 100%;
 }
 
+/* LOGO */
 .logo-container {
     width: 20%;
     text-align: left;
 }
 
+/* MENU */
 .menu-container {
     width: 60%;
     text-align: center;
 }
 
+/* LOGIN */
 .login-container {
     width: 20%;
     text-align: right;
@@ -98,6 +103,7 @@ nav {
     width: 120px;
 }
 
+/* MENU CONTAINER */
 .menu-container ul {
     list-style-type: none;
 }
@@ -113,10 +119,13 @@ nav {
     color: white;
     margin: 0 20px;
 }
+/* END MENU CONTAINER */
 /* END HEADER */
 
 
+
 /* MAIN */
+/* BANNER */
 .banner-container {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -146,9 +155,10 @@ nav {
     margin-top: 40px;
     margin-bottom: 60px;
 }
+/* END BANNER */
 
 
-/* SECTION */
+/* SECTIONS */
 section {
     padding: 80px 0;
 }
@@ -157,39 +167,59 @@ section {
     width: 65%;
 }
 
-/* .section-image-left img, .section-image-right img {
-    width: 700px;
-    height: auto;
-} */
-
 .section-text-right, .section-text-left {
     width: 35%;
 }
 
-.section-text-left h2 {
+.section-text-left h2, .section-text-right h2 {
     font-size: 45px;
     padding-top: 40px;
 }
 
 .section-text-right h2 {
-    font-size: 45px;
-    padding-top: 40px;
     padding-left: 40px;
 }
 
-.section-text-left p {
+.section-text-left p, .section-text-right p, .last-section-paragraph p {
     line-height: 25px;
     padding-top: 20px;
 }
 
 .section-text-right p {
     padding-left: 40px;
-    padding-top: 20px;
-    line-height: 25px;
 }
 
-.second {
+.second, .latest-section {
     background-color: #f6f6f6;
+}
+
+.last-section-title h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.last-section-paragraph p {
+    text-align: center;
+}
+
+.ready {
+    width: 40%;
+    margin: auto;
+}
+
+.ready h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#download {
+    background-color: #8ea1e1;
+    color: white
 }
 
 
